@@ -1,0 +1,259 @@
+.page{
+    background-color: #EEE8AA;
+    /*background-image: url("../images/background/texture.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;*/
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Noto Serif', serif;
+}
+
+.upper-nav{
+    background-color: palegoldenrod;
+}
+
+/*.upper-nav button{
+    background-color: palegoldenrod;
+    color: red;
+}*/
+
+.up-nav{
+    text-transform: uppercase ;
+    font-size: 17px;
+    padding-left: 15px; 
+    cursor: pointer;
+}
+
+#myDIV {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    display: none;
+}
+
+.boxes-text a{
+    color: #fff !important;
+    font-size: 40px;    
+    text-decoration: none;
+    z-index: 2;  
+}
+
+.boxes-text a:hover{
+    font-size: 30px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #fff;
+    z-index: 2;
+}
+
+.breakfast-box{
+    background-image: url("../images/toggle/1.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100% auto;
+    background-color: rgba(248, 127, 44, 0.9);
+    border: 3px solid #fff;
+    padding: 50px 0;
+    z-index: 1;
+}
+    
+.lunch-box{
+    background-image: url("../images/toggle/2.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100% auto;
+    background-color: rgba(102, 204, 37, 0.9);
+    padding: 50px 0;
+    border: 3px solid #fff;
+}
+
+.dinner-box{
+    background-image: url("../images/toggle/3.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100% auto;
+    background-color: rgba(184, 75, 214, 0.7); 
+    padding: 50px 0; 
+    border: 3px solid #fff;   
+}
+
+.top-nav{
+    background-color: #AA2A28 !important;
+    color: #FFF !important;
+    font-size: 20px !important;
+}
+
+.top-nav a{
+    color: #FFF !important;
+}
+
+.top-nav a:hover{
+    color: #B6C9C9 !important;
+}
+
+/* Image Slider */
+
+.slider{
+    text-align: center;
+}
+
+#imgSlider{
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0px 0px 10px #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thumbnails{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.thumbnails img{
+    width: 8em;
+    border-radius: 10px;
+}
+
+.active{
+    border: 2px solid #AA2A28;
+}
+
+
+.main-heading{
+    color: #AA2A28;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #FFF;
+    font-family: 'Courgette', cursive;
+}
+
+
+/* About */
+
+.about{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+}
+
+.about p{
+    
+}
+
+/* Parallax */
+
+.parallax {
+	margin: 0;
+	padding: 0;
+	height: 400px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	margin-bottom: 50px;
+}
+
+#title {
+	background-attachment: fixed;
+}
+
+.section {
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	background: 50% 50% / cover;
+}
+
+.parallaxbg {
+	background: rgba(0, 0, 0, 0.15);
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	display: block;
+	z-index: 1;
+}
+
+.parallaxText {
+    color: #fff;
+    text-shadow: 5px 5px 5px #AA2A28;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding: 100px 0;
+	position: relative;
+	z-index: 2;
+}
+
+/* Services */
+.services{
+    padding: 5px 20px;
+}
+
+.services p{
+    
+}
+
+.services-column{
+    padding: 10px;
+}
+
+.services-column h3{
+    font-size: 30px;
+    color: #AA2A28;
+}
+
+.special{
+    padding: 20px;
+}
+
+/*animated text*/
+
+h1.animated-heading {
+    /*font-size:50px;*/
+    font-weight:bold;
+    color:#AA2A28;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    -webkit-animation: appear 5s ease 0s 1 normal ;
+    animation: appear 5s ease 0s 1 normal ;
+}
+
+@-webkit-keyframes appear {
+  0%{
+	opacity: 0;
+	-webkit-transform: scale3d(0.3, 0.3, 0.3);
+	transform: scale3d(0.3, 0.3, 0.3);
+  }
+  60%{
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+  }
+}
+
+@keyframes appear {
+  0%{
+	opacity: 0;
+	transform: scale3d(0.3, 0.3, 0.3);
+  }
+  60%{
+	opacity: 1;
+	transform: scale3d(1,1,1);
+  }
+}
+
+/* footer */
+
+.footer{
+    color: lightgrey;
+    background-color: #393939;
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+}
