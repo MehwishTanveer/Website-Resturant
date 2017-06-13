@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XYZ Resturant</title>
+
+    <!-- Favicon -->
+    <link href="./images/background/burger-favicon.png" rel="shortcut icon" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font awsome icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google-font -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">  
+
+    <!-- bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="page">
+    <!-- Navigation Toggle -->
+    <div class="toggle-nav">
+        <div class="container-fluid">
+            <div class="row upper-nav">
+                <div class="col-sm-4">
+                <p class="up-btn" onclick="myFunction()"><i class="fa fa-angle-up" style="font-size:24px; cursor: pointer;"></i><span class="up-nav">Other Services</span></p>
+                </div>
+                <div class="col-sm-8">  </div>
+            </div>
+            <div class="row" id="myDIV">
+                <div class="col-sm-4 breakfast-box">  
+                    <div class="boxes-text"><a href="#">Breakfast</a></div>
+                </div>
+                <div class="col-sm-4 lunch-box">  
+                    <div class="boxes-text"><a href="#">Lunch</a></div>
+                </div>
+                <div class="col-sm-4 dinner-box">  
+                   <div class="boxes-text"><a href="#">Dinner</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse top-nav">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">XYZ logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <h1 class="animated-heading">Welcome To XYZ Resturant</h1>
+        </div>
+    </div>
+
+    <div class="slider container-fluid">
+        <div class="col-sm-12">
+            <img id="imgSlider" class="img-responsive" src="images/slider/1.jpg" alt="Food">
+        </div>
+    </div>
+    <span class="hidden-xs">
+        <div class="thumbnails">
+            <img id="1" src="images/slider/1.jpg" alt="Food" class="active">
+            <img id="2" src="images/slider/2.jpg" alt="Food">
+            <img id="3" src="images/slider/3.jpg" alt="Food">
+            <img id="4" src="images/slider/4.jpg" alt="Food">
+            <img id="5" src="images/slider/5.jpg" alt="Food">
+        </div>
+    </span>
+
+    <br>
+           
+    <!-- Welcome block -->
+    <div class="container"> 
+
+    <!-- About Us -->
+        <div class="row about" id="about"> 
+            <div class="col-md-4">
+                <img src="images/background/about3.jpg" class="img-responsive" alt="Food" style="border-radius: 20px; box-shadow: 0px 0px 10px #fff">
+            </div>
+            <div class="col-md-8"> 
+                <h1 class="main-heading">About Us</h1> 
+                <p class="about-para">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Parallax Starts -->
+    <div class="parallax hidden-xs">
+        <div id="title" class="section" style="background-image:url(./images/background/parallax2.jpg)">
+            <div class="parallaxbg"></div>
+            <div class="row parallaxText">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-10">
+                    <h1>XYZ Catering</h1>
+                    <h3>Great Food | Great Service | With Love</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Service -->
+    <div class="container"> 
+        <div class="row services" id="services">
+            <h1 class="main-heading">Our Services</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+        </div>
+        <div class="row services-column">   
+            <div class="col-md-4">
+                <h3><i class="fa fa-rocket" aria-hidden="true"></i> Our Mission</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-md-4">
+                <h3><i class="fa fa-handshake-o" aria-hidden="true"></i> Our Values</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-md-4">
+                <h3><i class="fa fa-shield" aria-hidden="true"></i> Quality Assurance</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <div class="container-fluid footer">
+        <div>All copyrights reserved &copy; 2017 XYZ Catering</div>
+        <div>Developed by XYZ</div>
+    </div>
+
+        <script src="script.js"></script>
+        
+
+</body>
+</html>
